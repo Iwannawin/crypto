@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale= 1,
+  shrink-to-fit=no"> 
+		<title>index</title>
+
+        <!-- Bootstrap core -->
+   <link href="css/bootstrap.min.css" rel="stylesheet">
+      <!-- portfolio grid -->
+    <link href="css/portfolio-item.css" rel="stylesheet">
+    <!-- dashboard -->
+     <link href="css/dashboard.css" rel="stylesheet">
+
+    <!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+  <!-- navbar -->
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="Blog.html">Crypto World</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <!-- <li class="nav-item active"> -->
+              <a class="nav-link" href="index.html">Home
+                <span class="sr-only"></span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="About.html">About</a>
+            <!-- </li> -->
+            <li class="nav-item">
+              <a class="nav-link" href="Data.html">Data</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="info.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Blog.html">Info</a>
+            </li>
+            <li class="nav-item"> 
+              <a class="nav-link" href="Contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+<!-- end -->
+
+      <div class="container">
+      <!-- Portfolio Item Heading -->
+      <h1 class="Crypto">Cryptocurrency
+        <!-- <small>Secondary Text</small> -->
+      </h1>
+      <div id="myclockDisplay" class="clock"></div>
+      <script type="text/javascript">
+
+        function showTime(){
+        var date = new date();
+        var h = date.getHours();
+        var m = date.getMinutes();
+        var s = date.getSeconds();
+        var session = "am";
+      } 
+        if(h == 0){
+          h = 12;
+        }
+
+        if(h > 12){
+          h = h - 12;
+          session = "pm";
+        }
+
+        h = (h < 10) ? "0" + h : h;
+        h = (h < 10) ? "0" + m : m;
+        h = (h < 10) ? "0" + s : s;
+
+
+
+        var time = h + ":" + m + ":" + s + " " + session;
+        document.getElementById("myclockDisplay").innerText = time;
+        document.getElementById("myclockDisplay").textContent = time;
+        setTimeOut(showTime, 1000);
+
+        showTime();
+      </script>
+      <!-- end of digital clock -->
+      
+      <!-- Jumbotron -->
+      <div class="jumbotron">
+  <h1 class="display-3">What are Cryptocurrecy!</h1>
+  <!-- <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p> -->
+  <hr class="my-4">
+  <p>The future is here!</p>
+  <p class="lead">
+    <a class="btn btn-dark btn-lg" href="https://blockgeeks.com/guides/what-is-cryptocurrency/" role="button">Learn more</a>
+  </p>
+</div>
+<!-- end -->
+
+      <!-- Portfolio Item Row -->
+      <div class="row">
+
+        <div class="col-md-8">
+          <img class="img-fluid" src="images/crypto.jpg" alt="All Currency">
+        </div>
+
+        <div class="col-md-4">
+                   <h3 class="my-3">Digital Currency</h3>
+          <ul>
+            <li><a href="https://twitter.com/hashtag/bitcoin?lang=en">Bitcoin</a></li>
+            <li><a href="https://twitter.com/bitcolncash?lang=en">Bitcoin Cash</a></li>
+            <li><a href="https://twitter.com/vitalikbuterin?lang=en">Ethereum </a></li>
+            <li><a href="https://twitter.com/SatoshiLite?ref_src=twsrc%5Egoogle%7Ctwcamp%5Enews%7Ctwgr%5Eauthor">Litecoin </a></li>
+            <li><a href="https://twitter.com/Ripple?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Ripple</a></li>
+            <li><a href="https://twitter.com/dashpay?lang=en">Dash</a></li>
+            
+          </ul>
+        </div>
+      </div>
+      <!-- /.row -->
+
+
+      <!-- Related Projects Row -->
+      <h3 class="my-4">Most Popular Currencies</h3>
+
+      <div class="row">
+
+        <div class="col-md-3 col-sm-6 mb-4">
+        	<figure>
+          
+            <img class="img-fluid" src="images/bitcoin2.jpg" alt="Bitcoin">
+          
+          <figcaption>The Gold for Cryptocurrency</figcaption>
+      </figure>
+        </div>
+
+        <div class="col-md-3 col-sm-6 mb-4">
+        	<figure>
+       
+            <img class="img-fluid" src="images/bitcoincash.png" alt="Bitcoin_Cash">
+          
+          <figcaption>The Littl
+          e Brother To Bitcoin</figcaption>
+          </figure>
+        </div>
+
+        <div class="col-md-3 col-sm-6 mb-4">
+        	<figure>
+          
+            <img class="img-fluid" src="images/ether2.png" alt="Ether">
+         
+          <figcaption>Smart Contracts</figcaption>
+          </figure>
+        </div>
+
+        <div class="col-md-3 col-sm-6 mb-4">
+        	<figure>
+        
+            <img class="img-fluid" src="images/lite_coins.jpg"
+            height="500" width="300"    alt="
+            Litcoin">
+         
+          <figcaption>The Silver for Crypotocurrency</figcaption>
+      </figure>
+        </div>
+
+        
+   </div>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-snapchat"></a>
+        <p class="m-0 text-center text-white">Copyright; Iwannawin2 Website 2017</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+   
+
+  </body>
+</html>
